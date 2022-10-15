@@ -39,8 +39,8 @@ else if (a == 0)
 
 else if (b < 0)
 {
-    double degreeOfNum = Math.Round(NegativeDegreeOfNum(a, b), 10, MidpointRounding.ToZero);
-    Console.WriteLine($"{a} в степени {b} -> {degreeOfNum}");
+    double negativedegreeOfNum = Math.Round(NegativeDegreeOfNum(a, b), 10, MidpointRounding.ToZero);
+    Console.WriteLine($"{a} в степени {b} -> {negativedegreeOfNum}");
 }
 else
 {
